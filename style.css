@@ -1,0 +1,75 @@
+body{
+	width: 100%;
+	height: auto;
+}
+
+#home{
+	background: #2ecc71;
+	height: 100vh;
+	width: 100%;
+}
+
+
+#about{
+	background: #3498db;
+	height: 100vh;
+	width: 100%;
+}
+
+
+#service{
+	background: #e74c3c;
+	height: 100vh;
+	width: 100%;
+}
+
+#contact{
+	background: #e67e22;
+	height: 100vh;
+	width: 100%;
+}
+
+
+.navbar{
+	background: #000;
+	border-radius: 1;
+	width: 100%;
+	margin-bottom: 0;
+	position: absolute;
+
+}
+
+.nav li {
+	display: inline-block;
+	padding: 10px 10px 10px;
+	position: relative;
+	text-align: center;
+	float: none;
+}
+
+
+.navigation {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	float: none;
+
+}
+
+.navbar li.active::after {
+	position: absolute;
+	bottom: 0;
+	left: 20%;
+	content: "";
+	height: 3px;
+	width: 60%;
+	background: #fff;
+
+}
+
+.navbar li a:hover{
+	background: none;
+}
+
+
